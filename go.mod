@@ -23,3 +23,7 @@ require (
 
 // Personal fork - bumped protobuf to latest stable for security fixes
 // Original: google.golang.org/protobuf v1.31.0
+
+// Note: golang.org/x/crypto and golang.org/x/net are listed as direct
+// dependencies here (not indirect) because this fork uses them explicitly
+// in custom helper code. Upstream treats them as indirect.
