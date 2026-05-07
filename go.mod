@@ -20,3 +20,6 @@ require (
 	github.com/rs/zerolog v1.31.0
 	golang.org/x/text v0.14.0 // indirect
 )
+
+// Personal fork - bumped protobuf to latest stable for security fixes
+// Original: google.golang.org/protobuf v1.31.0
