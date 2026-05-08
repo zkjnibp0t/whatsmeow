@@ -28,3 +28,7 @@ require (
 // Note: golang.org/x/crypto and golang.org/x/net are listed as direct
 // dependencies here (not indirect) because this fork uses them explicitly
 // in custom helper code. Upstream treats them as indirect.
+
+// TODO: look into upgrading golang.org/x/crypto past v0.17.0 once upstream
+// whatsmeow confirms compatibility - v0.17.0 has a known issue with certain
+// Ed25519 key operations on older ARM devices (personal note: affects my Pi).
