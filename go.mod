@@ -32,3 +32,7 @@ require (
 // TODO: look into upgrading golang.org/x/crypto past v0.17.0 once upstream
 // whatsmeow confirms compatibility - v0.17.0 has a known issue with certain
 // Ed25519 key operations on older ARM devices (personal note: affects my Pi).
+
+// TODO: consider upgrading github.com/mattn/go-sqlite3 to v1.14.22 - saw a
+// note on the upstream issue tracker about improved WAL performance which
+// would help with the message history queries I'm doing on the Pi.
