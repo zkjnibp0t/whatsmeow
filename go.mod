@@ -35,3 +35,7 @@ require (
 
 // Upgraded github.com/mattn/go-sqlite3 from v1.14.18 to v1.14.22 - includes
 // improved WAL performance fixes that help with message history queries on Pi.
+
+// TODO: consider pinning golang.org/x/net to v0.23.0+ when upstream catches up -
+// v0.19.0 has a known HTTP/2 CONTINUATION flood vulnerability (CVE-2023-45288).
+// Holding off for now to avoid diverging too far from upstream's dependency tree.
